@@ -1,0 +1,20 @@
+ELF 头：
+  Magic：   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  类别:                              ELF64
+  数据:                              2 补码，小端序 (little endian)
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI 版本:                          0
+  类型:                              DYN (共享目标文件)
+  系统架构:                          Advanced Micro Devices X86-64
+  版本:                              0x1
+  入口点地址：               0x1120
+  程序头起点：          64 (bytes into file)
+  Start of section headers:          36792 (bytes into file)
+  标志：             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         13
+  Size of section headers:           64 (bytes)
+  Number of section headers:         36
+  Section header string table index: 35
