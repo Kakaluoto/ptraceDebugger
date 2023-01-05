@@ -21,6 +21,25 @@ Notice:这个小demo是课程作业，故而只满足基本的作业要求，有
 
 为了在不同的功能之间进行切换，使用循环轮询手动输入参数的方式来决定使用哪一项功能。
 
+```c++
+Type "exit" to exit debugger.
+Type "reg" or "r" to show registers.
+Type "step" or "s" to single step.
+Type "continue" or "c" to continue until tracee stop.
+Type "memory" or "m" to show memory content.
+	You can use "-addr" or "-off" or "-nb" as argument.
+	use "-addr" to specify hexadecimal start address of the memory
+		for example: Type "m -addr ff" to specify the start address 0xff
+		(default start address is RIP)
+	use "-off" to specify the decimal offset from the start address
+		(default offset is 0)
+	use "-nb" to specify the decimal number of bytes to be displayed
+		(default number is 40)
+Type "ic" to count total instructions.
+Type "break" or "b" to insert breakpoint.
+	for example: Type "b 555555555131" to specify the breakpoint address 0x555555555131
+```
+
 系统调用Ptrace的定义：
 
 ```c++
