@@ -5,6 +5,8 @@ test文件夹存放一些测试用例作为tracee以及linux地址随机化关�
 具体说明可以前往我的博客：
 http://kakaluoto.xyz/2022/02/22/%E5%9F%BA%E4%BA%8Eptrace%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AAdebugger/
 
+Notice:这个小demo是课程作业，故而只满足基本的作业要求，有很多地方不是很严谨。。。。。。
+
 # 基于ptrace的debugger设计
 ## 1. 程序的设计思路
 ### 1.1 设计思路
@@ -410,5 +412,3 @@ else
     echo 'use option "-h" for help.'
 fi
 ```
-
-
